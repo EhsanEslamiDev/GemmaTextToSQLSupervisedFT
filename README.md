@@ -12,6 +12,6 @@ Supervised fine-tuning of the open-source Google model **Gemma 3-1B** for the Te
 
 ## Method
 
-- Base model: Gemma 3-1B.[5]
+- Base model: Gemma 3-1B.
 - Training approach: Supervised fine-tuning with Parameter-Efficient Fine-Tuning (PEFT) using LoRA adapters.
 - Rationale: LoRA reduces trainable parameters by injecting low-rank adapters, enabling efficient tuning on small GPUs like T4.
